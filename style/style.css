@@ -118,6 +118,7 @@ footer {
 footer p {
     text-align: center;
     margin: 20px auto;
+    margin-left:34px;
     padding: 20px auto;
     background-color: transparent;
 }
@@ -384,4 +385,73 @@ div.ul2 li {
     background-color: transparent;
     text-align: left;
     margin-bottom: 25px;
+}
+
+
+
+/*LOGIN*/
+.container1 {
+      padding: 40px;
+      border-radius: 10px;
+      width: 300px;
+      text-align: center;
+      margin-left: 956px;
+      background-color: #6d4b34;
+      box-shadow: 0 -35px 130px rgba(0, 0, 0, 0.4);
+      margin-top: 290px;
+      margin-bottom:310px;
+}
+.container1 h2{
+    color:white;
+    margin-top: -20px;
+    margin-bottom: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container1 label {
+    display:block;
+    color: white;
+    margin-bottom:10px;
+    margin-right:600px;
+
+}
+/*Input fields*/
+.container1 input {
+    width: 100%;
+    height: 40px;
+/*     margin-top: 10px; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border: 1px solid #d1cfd1;
+    background-color:#1c1917 ;
+    color:white;
+    margin-bottom: 20px;
+}
+/*button*/
+.container1 button {
+  background-color: #e8970c;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  width: 320px;
+  height: 35px;
+  margin-top: -0px;
+  border-radius: 5px;
+  margin-left: -2px;
+  margin-bottom: 15px;
+}
+.container1 button:hover {
+  background-color: #c58008;
+}
+.signin-link {
+  color:#ffaaaa;
+  margin-top: 10px;
+  display: inline-block; 
+  text-decoration: none;
+  font-size: 14px;
+}
+.signin-link:hover {
+  text-decoration: underline;
 }
