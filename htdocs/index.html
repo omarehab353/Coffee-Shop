@@ -4,26 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Shop</title>
+    <link rel="icon" href="/media/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style/style.css" />
   </head>
 
   <body>
-    <section class="top">
+    <header class="top">
       <nav>
         <ul>
-          <li class="one"><a href="#">Home</a></li>
-          <li class="one"><a href="#" target="_blank">Menu</a></li>
-          <li class="one"><a href="#">Our story</a></li>
-          <li class="one"><a href="#">|</a></li>
+          <li class="one"><a href="/htdocs/index.html">Home</a></li>
+          <li class="one"><a href="/htdocs/Menu.html">Menu</a></li>
+          <li class="one"><a href="#">About</a></li>
+          <li class="one">|</li>
           <li class="one"><a href="#">Login</a></li>
           <li class="sign"><a href="#">Sign up</a></li>
         </ul>
-        <img src="OIP__2_-removebg-preview.png" class="logo" />
+        <div class="logo-group">
+          <img src="/media/logo.png" class="logo" />
+          <div class="logo-cap">Cofee & Frindes</div>
+        </div>
       </nav>
-    </section>
+    </header>
 
     <section class="down">
-      <img src="coffe.jpg" />
+      <img src="/media/background.jpeg" />
 
       <div class="overlay">
         <pre> welcome to
@@ -34,10 +42,19 @@ what a coffee shop can be. Come taste innovation in every cup.
 </pre>
 
         <div class="btnns">
-          <button class="bttn1">View Menu ></button>
-          <button class="bttn2">Our Story</button>
+          <button class="bttn">
+            <a href="/htdocs/Menu.html">View Menu</a>
+          </button>
+
+          <button class="bttn">
+            <a href="#">About</a>
+          </button>
         </div>
       </div>
     </section>
+
+    <footer>
+      <p>&copy; 2025 Coffee & Friends. All rights reserved.</p>
+    </footer>
   </body>
 </html>
