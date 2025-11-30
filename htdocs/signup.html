@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="icon" href="/media/logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <header class="top">
+      <nav>
+        <ul>
+          <li class="one"><a href="/htdocs/index.html">Home</a></li>
+          <li class="one"><a href="/htdocs/Menu.html">Menu</a></li>
+          <li class="one"><a href="/htdocs/index.html">About</a></li>
+          <li class="one">|</li>
+          <li class="one"><a href="/htdocs/login.html">Login</a></li>
+          <li class="sign"><a href="/htdocs/signup.html">Sign up</a></li>
+        </ul>
+
+        <div class="logo-group">
+          <img src="/media/logo.png" class="logo" />
+          <div class="logo-cap">Coffee & Friends</div>
+        </div>
+      </nav>
+    </header>
+
+    
+    <div class="container1">
+      <h2>Create Account</h2>
+      <p class="form-cap">Create an account to start earning rewards</p>
+      <form method="post" target="_blank">
+        <label for="fullname">Name:</label>
+        <input id="fullname" type="text" placeholder="Your full name" required />
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="you@example.com" required />
+
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="*******" required />
+
+        <button id="btn1" type="submit">Sign Up</button>
+      </form>
+
+      Already have an account?
+      <a href="/htdocs/login.html" class="signin-link" style="color: #FFA500;">Login</a>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Coffee & Friends. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
